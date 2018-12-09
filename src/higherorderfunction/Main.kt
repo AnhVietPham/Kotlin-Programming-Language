@@ -15,4 +15,24 @@ fun main(args: Array<String>) {
     } else {
         println("$employee, we belive that the best version of you is about to take us by surprise. Keep going")
     }
+
+
+    val biggest = fun(a: String, b: String): String {
+        return when {
+            a.length > b.length -> a
+            else -> b
+        }
+    }
+
+
+    val concat = fun(a: String, b: String) = a + b
+    fun stringOperation(arr: List<String>, operation: (String, String) -> String) {
+        var result = ""
+        arr.forEach {
+            result = operation(result, it)
+        }
+        println(result)
+    }
+    stringOperation(listOf("111", "22", "3"), biggest)
+    stringOperation(listOf("111", "22", "3"), concat)
 }
