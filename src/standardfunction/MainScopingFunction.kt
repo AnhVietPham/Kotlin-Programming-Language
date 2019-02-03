@@ -28,6 +28,6 @@ fun testNormalVsExtensionFuntion() {
 
 
 fun main(args: Array<String>) {
-  //  testRunFunction()
+    testRunFunction()
     testNormalVsExtensionFuntion()
 }
