@@ -14,7 +14,7 @@ fun testRunFunction() {
 
 fun testNormalVsExtensionFuntion() {
     val student = Student()
-    with(student){
+    with(student) {
         name = "Huy Hoang Pham"
         address = "Tan Thanh Village"
         age = 20
@@ -27,7 +27,38 @@ fun testNormalVsExtensionFuntion() {
 }
 
 
+fun testFunStandardFunctionAlso() {
+    val student = Student()
+    student.also {
+
+    }
+}
+
+// Only access properties in apply block
+fun testFunStandardFunctionApply() {
+    val student = Student()
+
+    println("Name: ${student.name}")
+    println("Age: ${student.age}")
+    println("Address: ${student.address}")
+    println("School: ${student.school}")
+
+    student.apply {
+        name = "Hugo Lina"
+        age = 34
+        school = "University Of Science and Data"
+        address = "District 12"
+    }
+
+    println("Name: ${student.name}")
+    println("Age: ${student.age}")
+    println("Address: ${student.address}")
+    println("School: ${student.school}")
+}
+
+
 fun main(args: Array<String>) {
-    testRunFunction()
-    testNormalVsExtensionFuntion()
+    //   testRunFunction()
+  //  testNormalVsExtensionFuntion()
+    testFunStandardFunctionApply()
 }
