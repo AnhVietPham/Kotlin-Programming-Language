@@ -26,11 +26,14 @@ fun testNormalVsExtensionFuntion() {
     }
 }
 
-
+//Use the also() function, if your block does not access its receiver parameter at all, or if it does not mutate its receiver parameter
 fun testFunStandardFunctionAlso() {
     val student = Student()
     student.also {
-
+        println("Name: ${it.name}")
+        println("Age: ${it.age}")
+        println("Address: ${it.address}")
+        println("School: ${it.school}")
     }
 }
 
@@ -60,5 +63,6 @@ fun testFunStandardFunctionApply() {
 fun main(args: Array<String>) {
     //   testRunFunction()
   //  testNormalVsExtensionFuntion()
-    testFunStandardFunctionApply()
+   // testFunStandardFunctionApply()
+    testFunStandardFunctionAlso()
 }
