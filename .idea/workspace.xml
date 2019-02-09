@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a8565b4-10e4-4bf0-b950-6fe3bba3f377" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/standardfunction/FunctionTypeWithReceiver.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basic-kotlin/META-INF/basic-kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basic-kotlin/META-INF/basic-kotlin.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/standardfunction/MainScopingFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/standardfunction/MainScopingFunction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/standardfunction/Student.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/standardfunction/Student.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,15 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dsl/DslMainActivity.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dsl/Dsl.kt">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,11 +68,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/standardfunction/MainScopingFunction.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+            <state relative-caret-position="74">
+              <caret line="82" selection-start-line="82" selection-end-line="88" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/standardfunction/FunctionTypeWithReceiver.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -135,6 +133,7 @@
         <option value="$PROJECT_DIR$/src/extension/MainExtension.kt" />
         <option value="$PROJECT_DIR$/src/standardfunction/Student.kt" />
         <option value="$PROJECT_DIR$/src/standardfunction/MainScopingFunction.kt" />
+        <option value="$PROJECT_DIR$/src/standardfunction/FunctionTypeWithReceiver.kt" />
       </list>
     </option>
   </component>
@@ -210,7 +209,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549701887939" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549704560906" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -229,7 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.standardfunction.MainScopingFunctionKt">
+  <component name="RunManager" selected="Kotlin.standardfunction.MainFunctionTypeWithReceiverKt">
     <configuration name="dsl.DslMainActivityKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="basic-kotlin" />
       <option name="VM_PARAMETERS" value="" />
@@ -269,6 +268,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="standardfunction.MainFunctionTypeWithReceiverKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="basic-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="standardfunction.MainFunctionTypeWithReceiverKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="standardfunction.MainScopingFunctionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="basic-kotlin" />
       <option name="VM_PARAMETERS" />
@@ -287,9 +299,11 @@
       <item itemvalue="Kotlin.higherorderfunction.MainKt" />
       <item itemvalue="Kotlin.extension.MainExtensionKt" />
       <item itemvalue="Kotlin.standardfunction.MainScopingFunctionKt" />
+      <item itemvalue="Kotlin.standardfunction.MainFunctionTypeWithReceiverKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.standardfunction.MainFunctionTypeWithReceiverKt" />
         <item itemvalue="Kotlin.standardfunction.MainScopingFunctionKt" />
         <item itemvalue="Kotlin.extension.MainExtensionKt" />
         <item itemvalue="Kotlin.higherorderfunction.MainKt" />
@@ -343,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1549248576626</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Use the let() function">
+      <created>1549701922233</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1549701922233</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -359,7 +380,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24432677" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24432677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -369,7 +390,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3453355" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3453355" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -396,7 +417,8 @@
     <MESSAGE value="Kotlin Scoping Functions" />
     <MESSAGE value="conventions for using apply" />
     <MESSAGE value="conventions for using also()" />
-    <option name="LAST_COMMIT_MESSAGE" value="conventions for using also()" />
+    <MESSAGE value="Use the let() function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use the let() function" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/higherorderfunction/ManagerModel.kt" />
@@ -510,8 +532,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/standardfunction/MainScopingFunction.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+        <state relative-caret-position="74">
+          <caret line="82" selection-start-line="82" selection-end-line="88" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/standardfunction/FunctionTypeWithReceiver.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
         </state>
       </provider>
     </entry>
