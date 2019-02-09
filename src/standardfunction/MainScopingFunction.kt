@@ -59,10 +59,31 @@ fun testFunStandardFunctionApply() {
     println("School: ${student.school}")
 }
 
+/*
+* Use the let() function in either of the following case:
+* + execute code if a given value is not null
+* + Limit the scope of single local variable
+* */
+fun testFunStandardFunctionLet(){
+    val student = Student()
+    student.getStudent().let {
+        student.address = "HCM City"
+        student.age = 18
+        student.school = " Le Loi High School"
+        student.name = "AVP"
+        println("Name: ${student.name}")
+        println("Age: ${student.age}")
+        println("Address: ${student.address}")
+        println("School: ${student.school}")
+    }
+
+
+}
 
 fun main(args: Array<String>) {
     //   testRunFunction()
   //  testNormalVsExtensionFuntion()
    // testFunStandardFunctionApply()
-    testFunStandardFunctionAlso()
+    //testFunStandardFunctionAlso()
+    testFunStandardFunctionLet()
 }
