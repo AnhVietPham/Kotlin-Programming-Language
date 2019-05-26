@@ -1,6 +1,15 @@
 package variance
 
 import variance.Factory.*
+import variance.Factory.`object`.Burger
+import variance.Factory.`object`.FastFood
+import variance.Factory.`object`.Food
+import variance.Factory.consumer.American
+import variance.Factory.consumer.Everybody
+import variance.Factory.consumer.ModernPeople
+import variance.Factory.store.BurgerStore
+import variance.Factory.store.FastFoodStore
+import variance.Factory.store.FoodStore
 
 fun main(args: Array<String>) {
     /*

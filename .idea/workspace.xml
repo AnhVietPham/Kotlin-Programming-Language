@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0fc3a5e-a142-4929-8067-95f2f6c52983" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/delegation/DelegationSample.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/delegation/MainDelegation.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/basic-kotlin/META-INF/basic-kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basic-kotlin/META-INF/basic-kotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/variance/Factory/American.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/variance/Factory/consumer/American.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/variance/Factory/Burger.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/variance/Factory/object/Burger.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/variance/Factory/BurgerStore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/variance/Factory/store/BurgerStore.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/variance/Factory/Everybody.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/variance/Factory/consumer/Everybody.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/variance/Factory/FastFood.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/variance/Factory/object/FastFood.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/variance/Factory/FastFoodStore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/variance/Factory/store/FastFoodStore.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/variance/Factory/Food.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/variance/Factory/object/Food.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/variance/Factory/FoodStore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/variance/Factory/store/FoodStore.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/variance/Factory/ModernPeople.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/variance/Factory/consumer/ModernPeople.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/variance/VarianceMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/variance/VarianceMain.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,74 +22,107 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/extension/MainExtension.kt">
+        <entry file="file://$PROJECT_DIR$/src/variance/VarianceMain.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+            <state relative-caret-position="-107">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="41" />
+              <folding>
+                <element signature="e#18#420#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/extension/Animal.kt">
+        <entry file="file://$PROJECT_DIR$/src/variance/Factory/ProductionConsumer.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
-              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/infixfunction/War.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/delegation/MainDelegation.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="dummy://kotlinDecompiled/MainDelegation.decompiled.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1034">
-              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/delegation/DelegationSample.kt">
+        <entry file="file://$PROJECT_DIR$/src/variance/Factory/ConsumerFood.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="66">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="dummy://kotlinDecompiled/DelegationSample.decompiled.java">
+        <entry file="file://$PROJECT_DIR$/src/variance/Factory/consumer/American.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-198" />
+            <state relative-caret-position="99">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <folding>
+                <element signature="e#35#109#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/infixfunction/MainInfixFunction.kt">
+        <entry file="file://$PROJECT_DIR$/src/variance/Factory/consumer/ModernPeople.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="88">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/variance/Factory/consumer/Everybody.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <folding>
+                <element signature="e#35#109#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/variance/Factory/object/Burger.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/variance/Factory/store/FastFoodStore.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/variance/Factory/object/FastFood.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/variance/Factory/store/FoodStore.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -92,9 +133,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Class" />
         <option value="Kotlin File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sort</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -105,8 +152,40 @@
         <option value="$PROJECT_DIR$/src/infixfunction/InfixFuction.kt" />
         <option value="$PROJECT_DIR$/src/infixfunction/War.kt" />
         <option value="$PROJECT_DIR$/src/infixfunction/MainInfixFunction.kt" />
-        <option value="$PROJECT_DIR$/src/delegation/MainDelegation.kt" />
         <option value="$PROJECT_DIR$/src/delegation/DelegationSample.kt" />
+        <option value="$PROJECT_DIR$/src/delegation/MainDelegation.kt" />
+        <option value="$PROJECT_DIR$/src/delegation/TestInterface.kt" />
+        <option value="$PROJECT_DIR$/src/delegation/A.java" />
+        <option value="$PROJECT_DIR$/src/property_delegation/DemoPropertyDelegation.kt" />
+        <option value="$PROJECT_DIR$/src/property_delegation/A.kt" />
+        <option value="$PROJECT_DIR$/src/property_delegation/Example.kt" />
+        <option value="$PROJECT_DIR$/src/property_delegation/Delegate.kt" />
+        <option value="$PROJECT_DIR$/src/property_delegation/DemoLazy.kt" />
+        <option value="$PROJECT_DIR$/src/property_delegation/DemoObservable.kt" />
+        <option value="$PROJECT_DIR$/src/property_delegation/MainPropertyDelegation.kt" />
+        <option value="$PROJECT_DIR$/src/datastructure/main.kt" />
+        <option value="$PROJECT_DIR$/src/variance/VarianceMain.java" />
+        <option value="$PROJECT_DIR$/src/variance/Covariance.kt" />
+        <option value="$PROJECT_DIR$/src/variance/InAndOutModifier.kt" />
+        <option value="$PROJECT_DIR$/src/variance/Production.kt" />
+        <option value="$PROJECT_DIR$/src/variance/Consumer.kt" />
+        <option value="$PROJECT_DIR$/src/variance/InModifier.kt" />
+        <option value="$PROJECT_DIR$/src/variance/ConsumerFood.kt" />
+        <option value="$PROJECT_DIR$/src/variance/ProductionConsumer.kt" />
+        <option value="$PROJECT_DIR$/src/variance/FastFood.kt" />
+        <option value="$PROJECT_DIR$/src/variance/Food.kt" />
+        <option value="$PROJECT_DIR$/src/variance/Burger.kt" />
+        <option value="$PROJECT_DIR$/src/variance/FoodStore.kt" />
+        <option value="$PROJECT_DIR$/src/variance/FastFoodStore.kt" />
+        <option value="$PROJECT_DIR$/src/variance/BurgerStore.kt" />
+        <option value="$PROJECT_DIR$/src/variance/Factory/BurgerStore.kt" />
+        <option value="$PROJECT_DIR$/src/variance/Factory/Everybody.kt" />
+        <option value="$PROJECT_DIR$/src/variance/Factory/ModernPeople.kt" />
+        <option value="$PROJECT_DIR$/src/variance/Factory/American.kt" />
+        <option value="$PROJECT_DIR$/src/variance/Factory/object/Burger.kt" />
+        <option value="$PROJECT_DIR$/src/variance/Factory/consumer/American.kt" />
+        <option value="$PROJECT_DIR$/src/variance/Factory/ProductionFood.kt" />
+        <option value="$PROJECT_DIR$/src/variance/VarianceMain.kt" />
       </list>
     </option>
   </component>
@@ -121,7 +200,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -133,67 +211,69 @@
             <path>
               <item name="basic-kotlin" type="b2602c69:ProjectViewProjectNode" />
               <item name="basic-kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basic-kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basic-kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basic-kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basic-kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="basic-kotlin" type="b2602c69:ProjectViewProjectNode" />
               <item name="basic-kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="delegation" type="462c0819:PsiDirectoryNode" />
+              <item name="variance" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="basic-kotlin" type="b2602c69:ProjectViewProjectNode" />
               <item name="basic-kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="extension" type="462c0819:PsiDirectoryNode" />
+              <item name="variance" type="462c0819:PsiDirectoryNode" />
+              <item name="Factory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="basic-kotlin" type="b2602c69:ProjectViewProjectNode" />
               <item name="basic-kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="higherorderfunction" type="462c0819:PsiDirectoryNode" />
+              <item name="variance" type="462c0819:PsiDirectoryNode" />
+              <item name="Factory" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="basic-kotlin" type="b2602c69:ProjectViewProjectNode" />
               <item name="basic-kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="infixfunction" type="462c0819:PsiDirectoryNode" />
+              <item name="variance" type="462c0819:PsiDirectoryNode" />
+              <item name="Factory" type="462c0819:PsiDirectoryNode" />
+              <item name="object" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="basic-kotlin" type="b2602c69:ProjectViewProjectNode" />
               <item name="basic-kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lambda" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basic-kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="variance" type="462c0819:PsiDirectoryNode" />
+              <item name="Factory" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550387746313" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551408512065" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="variance.Factory.consumer" />
+      <recent name="variance.Factory.store" />
+      <recent name="variance.Factory.object" />
+      <recent name="variance.Factory" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -207,7 +287,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.delegation.MainDelegationKt">
+  <component name="RunManager" selected="Kotlin.variance.VarianceMainKt">
+    <configuration name="datastructure.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="basic-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="datastructure.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="delegation.MainDelegationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="basic-kotlin" />
       <option name="VM_PARAMETERS" />
@@ -216,32 +309,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="delegation.MainDelegationKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="extension.MainExtensionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="basic-kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="extension.MainExtensionKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="infixfunction.MainInfixFunctionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="basic-kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="infixfunction.MainInfixFunctionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -260,33 +327,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lambda.PassLambdaKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="property_delegation.MainPropertyDelegationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="basic-kotlin" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="lambda.PassLambdaKt" />
+      <option name="MAIN_CLASS_NAME" value="property_delegation.MainPropertyDelegationKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="variance.VarianceMainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="basic-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="variance.VarianceMainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.lambda.InvokeLambdaKt" />
-      <item itemvalue="Kotlin.lambda.PassLambdaKt" />
-      <item itemvalue="Kotlin.extension.MainExtensionKt" />
-      <item itemvalue="Kotlin.infixfunction.MainInfixFunctionKt" />
+      <item itemvalue="Kotlin.datastructure.MainKt" />
       <item itemvalue="Kotlin.delegation.MainDelegationKt" />
+      <item itemvalue="Kotlin.lambda.InvokeLambdaKt" />
+      <item itemvalue="Kotlin.property_delegation.MainPropertyDelegationKt" />
+      <item itemvalue="Kotlin.variance.VarianceMainKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.delegation.MainDelegationKt" />
-        <item itemvalue="Kotlin.infixfunction.MainInfixFunctionKt" />
-        <item itemvalue="Kotlin.extension.MainExtensionKt" />
-        <item itemvalue="Kotlin.lambda.PassLambdaKt" />
+        <item itemvalue="Kotlin.variance.VarianceMainKt" />
         <item itemvalue="Kotlin.lambda.InvokeLambdaKt" />
+        <item itemvalue="Kotlin.datastructure.MainKt" />
+        <item itemvalue="Kotlin.property_delegation.MainPropertyDelegationKt" />
+        <item itemvalue="Kotlin.delegation.MainDelegationKt" />
       </list>
     </recent_temporary>
   </component>
@@ -315,40 +395,40 @@
       <option name="project" value="LOCAL" />
       <updated>1550363326620</updated>
     </task>
-    <task id="LOCAL-00003" summary="Kotlin Scoping Functions">
-      <created>1549211121582</created>
+    <task id="LOCAL-00003" summary="Demo Delegation Class">
+      <created>1550387818561</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1549211121582</updated>
+      <updated>1550387818561</updated>
     </task>
-    <task id="LOCAL-00004" summary="conventions for using apply">
-      <created>1549246888127</created>
+    <task id="LOCAL-00004" summary="Delegated properties: Lazy">
+      <created>1550489746512</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1549246888127</updated>
+      <updated>1550489746512</updated>
     </task>
-    <task id="LOCAL-00005" summary="conventions for using also()">
-      <created>1549248576626</created>
+    <task id="LOCAL-00005" summary="Delegated properties: Observables">
+      <created>1550529899519</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1549248576626</updated>
+      <updated>1550529899519</updated>
     </task>
-    <task id="LOCAL-00006" summary="Use the let() function">
-      <created>1549701922233</created>
+    <task id="LOCAL-00006" summary="Delegated properties: Vetoable()">
+      <created>1550530676733</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1549701922233</updated>
+      <updated>1550530676733</updated>
     </task>
-    <task id="LOCAL-00007" summary="Function Type with receiver">
-      <created>1549704623654</created>
+    <task id="LOCAL-00007" summary="In and out type variant of Kotlin">
+      <created>1551359168235</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1549704623654</updated>
+      <updated>1551359168235</updated>
     </task>
     <task id="LOCAL-00008" summary="Function Reference">
       <created>1549814490645</created>
@@ -371,14 +451,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550357868433</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17170954" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26399395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -388,8 +468,8 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.049099836" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.47135842" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3371522" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32972974" />
@@ -399,7 +479,7 @@
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
@@ -412,80 +492,182 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="another example of extension function" />
     <MESSAGE value="Add Demo Infix functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Demo Infix functions" />
+    <MESSAGE value="Demo Delegation Class" />
+    <MESSAGE value="Delegated properties: Lazy" />
+    <MESSAGE value="Delegated properties: Observables" />
+    <MESSAGE value="Delegated properties: Vetoable()" />
+    <MESSAGE value="In and out type variant of Kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="In and out type variant of Kotlin" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/higherorderfunction/ManagerModel.kt" />
-    <entry file="file://$PROJECT_DIR$/src/higherorderfunction/EmployeeEvaluation.kt" />
-    <entry file="file://$PROJECT_DIR$/src/typeinference/Main.kt" />
-    <entry file="file://$PROJECT_DIR$/src/typeinference/Box.kt" />
-    <entry file="file://$PROJECT_DIR$/src/typeinference/BoxDemo.kt" />
-    <entry file="file://$PROJECT_DIR$/out/production/basic-kotlin/higherorderfunction/EmployeeModel.class" />
-    <entry file="file://$PROJECT_DIR$/out/production/basic-kotlin/higherorderfunction/MainKt.class" />
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Function.kt">
+    <entry file="file://$PROJECT_DIR$/src/property_delegation/DemoLazy.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/property_delegation/DemoObservable.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/property_delegation/MainPropertyDelegation.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Arrays.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1323">
+          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Library.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+          <caret line="60" column="49" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/util/Lazy.kt">
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Collections.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="112">
+          <caret line="1435" column="33" selection-start-line="1435" selection-start-column="33" selection-end-line="1435" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib.jar!/kotlin/LazyKt.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib.jar!/kotlin/jvm/JvmClassMappingKt.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib.jar!/kotlin/collections/CollectionsKt.class">
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/collections/TypeAliases.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-493">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="198">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/basic-kotlin/higherorderfunction/EvaluatorModel.class" />
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib.jar!/kotlin/jvm/functions/Function0.class">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Comparable.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/extension/Student.kt" />
-    <entry file="file://$PROJECT_DIR$/src/dsl/DslMainActivity.kt">
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/collections/CollectionsH.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="27" column="60" lean-forward="true" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="176" column="16" selection-start-line="176" selection-start-column="16" selection-end-line="176" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#218436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-891">
+          <caret line="503" column="17" selection-start-line="503" selection-start-column="17" selection-end-line="503" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/datastructure/main.kt" />
+    <entry file="jrt://C:/Program Files/Java/jdk-11.0.1!/java.base/java/lang/Number.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variance/VarianceMain.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-990">
+          <folding>
+            <element signature="e#0#70489#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variance/InAndOutModifier.kt" />
+    <entry file="file://$PROJECT_DIR$/src/variance/InModifier.kt" />
+    <entry file="file://$PROJECT_DIR$/src/variance/OutModifier.kt" />
+    <entry file="file://$PROJECT_DIR$/src/dsl/DslMainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dsl/Model.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/higherorderfunction/Main.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambda/InvokeLambda.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/delegation/DelegationSample.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/delegation/MainDelegation.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lambda/PassLambda.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/extension/Animal.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/extension/MainExtension.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dsl/Dsl.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dsl/Model.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/standardfunction/MainScopingFunction.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1804">
-          <caret line="82" selection-start-line="82" selection-end-line="88" selection-end-column="1" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/standardfunction/MainFunctionTypeWithReceiver.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        <state relative-caret-position="198">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -496,52 +678,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/standardfunction/MainFunctionReference.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/util/Standard.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="83" column="24" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/standardfunction/Student.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/jvm/functions/Functions.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lambda/PassLambda.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" selection-start-line="13" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lambda/InvokeLambda.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+        <state relative-caret-position="44">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/higherorderfunction/EmployeeModel.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -552,30 +699,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/higherorderfunction/Main.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/src/infixfunction/MainInfixFunction.kt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/infixfunction/InfixFuction.kt" />
-    <entry file="file://$PROJECT_DIR$/src/extension/MainExtension.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/extension/Animal.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/infixfunction/War.kt">
       <provider selected="true" editor-type-id="text-editor">
@@ -584,24 +709,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/infixfunction/MainInfixFunction.kt">
+    <entry file="file://$PROJECT_DIR$/src/standardfunction/MainScopingFunction.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/standardfunction/MainFunctionReference.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="66">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/delegation/MainDelegation.kt">
+    <entry file="file://$PROJECT_DIR$/src/variance/Factory/ProductionFood.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="44">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/delegation/DelegationSample.kt">
+    <entry file="file://$PROJECT_DIR$/src/variance/Factory/store/BurgerStore.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="88">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variance/Factory/object/Food.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variance/Factory/object/FastFood.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variance/Factory/store/FastFoodStore.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variance/Factory/object/Burger.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variance/Factory/consumer/Everybody.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="e#35#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variance/Factory/consumer/ModernPeople.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variance/Factory/consumer/American.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="e#35#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variance/Factory/store/FoodStore.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variance/VarianceMain.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="41" />
+          <folding>
+            <element signature="e#18#420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variance/Factory/ProductionConsumer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variance/Factory/ConsumerFood.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
         </state>
       </provider>
     </entry>
