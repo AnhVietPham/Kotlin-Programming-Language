@@ -1,4 +1,7 @@
-package variance.Factory
+package variance.Factory.store
+
+import variance.Factory.ProductionFood
+import variance.Factory.`object`.FastFood
 
 class FastFoodStore : ProductionFood<FastFood> {
     override fun produce(): FastFood {
