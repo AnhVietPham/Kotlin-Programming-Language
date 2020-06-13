@@ -5,7 +5,7 @@ private fun isPromotableEmployee(evaluate: () -> Int): Boolean {
     return evaluate() > PROMOTION_OFFSET
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val employee = EmployeeModel(name = "Anh Viet Pham")
     val hr = EvaluatorModel(name = "Le Thi Hoa")
     val manager = EvaluatorModel(name = "Pham Van Cuong")

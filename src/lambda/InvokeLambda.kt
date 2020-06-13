@@ -1,6 +1,6 @@
 package lambda
 
-fun main(args: Array<String>) {
+fun main() {
     val add = {x : Int -> x + 1 }
     println(add(4))
 

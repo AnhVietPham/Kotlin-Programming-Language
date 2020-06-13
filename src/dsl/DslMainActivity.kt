@@ -1,6 +1,6 @@
 package dsl
 
-fun main(args: Array<String>){
+fun main() {
     val person = person1 {
         name = "John"
         age = 25

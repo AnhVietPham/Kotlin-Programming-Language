@@ -1,6 +1,6 @@
 package infixfunction
 
-fun main(args: Array<String>){
+fun main() {
     val war1 = War(200,10)
     val war2 = War(300,20)
 

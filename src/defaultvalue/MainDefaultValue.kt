@@ -48,7 +48,7 @@ fun formatCurrencyToKOrPercent(number: Int?): String? {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
 //    // Have parameter
 //    sayHello(first = "Hugo", last = "LinDa")
 //

@@ -20,7 +20,7 @@ class Student(
 
 fun <T> mutableStackOf(vararg items: T) = MutableStack(*items)
 
-fun main(args: Array<String>) {
+fun main() {
     val students = arrayOf(
             Student(
                     "Huy Hoang Le Pham",

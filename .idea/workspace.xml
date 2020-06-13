@@ -19,15 +19,30 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0fc3a5e-a142-4929-8067-95f2f6c52983" name="Default Changelist" comment="GENERICS IN KOTLIN">
-      <change afterPath="$PROJECT_DIR$/src/enum/Color.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enum/HondaStore.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enum/MainDemoEnumClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enum/State.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scopefunctions/MainScopeFunctions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f0fc3a5e-a142-4929-8067-95f2f6c52983" name="Default Changelist" comment="Demo Enum class">
+      <change afterPath="$PROJECT_DIR$/src/object/MainDemoObject.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/object/Student.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/object/UserInfo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sealed/Animal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sealed/MainDemoSealedClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sealed/Operation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sealed/OperationADD.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sealed/OperationDIV.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sealed/OperationEnum.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sealed/OperationMUL.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sealed/OperationNormal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sealed/OperationSUB.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sealed/expr.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/basic-kotlin/META-INF/basic-kotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basic-kotlin/META-INF/basic-kotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/defaultvalue/MainDefaultValue.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/defaultvalue/MainDefaultValue.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/delegation/MainDelegation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/delegation/MainDelegation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dsl/DslMainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsl/DslMainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generics/MutableStack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/generics/MutableStack.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/higherorderfunction/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/higherorderfunction/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infixfunction/MainInfixFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/infixfunction/MainInfixFunction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/InvokeLambda.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/InvokeLambda.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda/PassLambda.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda/PassLambda.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +56,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="Kotlin Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Enum" />
+        <option value="Class" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Object" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -78,7 +94,20 @@
       <recent name="variance.Factory" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainDemoEnumClassKt">
+  <component name="RunManager" selected="Kotlin.MainDemoObjectKt">
+    <configuration name="MainDemeObjectKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="basic-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="object.MainDemeObjectKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainDemoEnumClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="basic-kotlin" />
       <option name="VM_PARAMETERS" />
@@ -87,6 +116,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="enum.MainDemoEnumClassKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainDemoObjectKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="basic-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="object.MainDemoObjectKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainDemoSealedClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="basic-kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="sealed.MainDemoSealedClassKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,59 +160,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="datastructure.MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="basic-kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="datastructure.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="lambda.InvokeLambdaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="basic-kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="lambda.InvokeLambdaKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="variance.VarianceMainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="basic-kotlin" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="variance.VarianceMainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Kotlin.MutableStackKt" />
-      <item itemvalue="Kotlin.datastructure.MainKt" />
-      <item itemvalue="Kotlin.lambda.InvokeLambdaKt" />
-      <item itemvalue="Kotlin.variance.VarianceMainKt" />
+      <item itemvalue="Kotlin.MainDemeObjectKt" />
       <item itemvalue="Kotlin.MainDemoEnumClassKt" />
+      <item itemvalue="Kotlin.MainDemoObjectKt" />
+      <item itemvalue="Kotlin.MainDemoSealedClassKt" />
+      <item itemvalue="Kotlin.MutableStackKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainDemoObjectKt" />
+        <item itemvalue="Kotlin.MainDemeObjectKt" />
+        <item itemvalue="Kotlin.MainDemoSealedClassKt" />
         <item itemvalue="Kotlin.MainDemoEnumClassKt" />
         <item itemvalue="Kotlin.MutableStackKt" />
-        <item itemvalue="Kotlin.variance.VarianceMainKt" />
-        <item itemvalue="Kotlin.lambda.InvokeLambdaKt" />
-        <item itemvalue="Kotlin.datastructure.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -228,12 +244,12 @@
       <option name="project" value="LOCAL" />
       <updated>1591176767104</updated>
     </task>
-    <task id="LOCAL-00009" summary="Define lambda function using invoke method">
-      <created>1550356287910</created>
+    <task id="LOCAL-00009" summary="Demo Enum class">
+      <created>1591869199065</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1550356287910</updated>
+      <updated>1591869199065</updated>
     </task>
     <task id="LOCAL-00010" summary="Pass Lambda to a function">
       <created>1550357868433</created>
@@ -242,7 +258,7 @@
       <option name="project" value="LOCAL" />
       <updated>1550357868433</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,7 +282,8 @@
     <MESSAGE value="Delegated properties: Vetoable()" />
     <MESSAGE value="In and out type variant of Kotlin" />
     <MESSAGE value="GENERICS IN KOTLIN" />
-    <option name="LAST_COMMIT_MESSAGE" value="GENERICS IN KOTLIN" />
+    <MESSAGE value="Demo Enum class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Demo Enum class" />
   </component>
   <component name="WindowStateProjectService">
     <state x="80" y="179" key="#MutableStackKt" timestamp="1591176054092">
@@ -277,33 +294,41 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="0" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1591869006444" />
+    <state x="680" y="283" key="#com.intellij.ide.util.MemberChooser" timestamp="1591954117543">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="680" y="283" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1591954117543" />
     <state x="260" y="357" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1591175951796">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="260" y="357" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1591175951796" />
-    <state width="1750" height="466" key="GridCell.Tab.0.bottom" timestamp="1591867261709">
+    <state width="1750" height="264" key="GridCell.Tab.0.bottom" timestamp="1591957238817">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="466" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1591867261709" />
+    <state width="1750" height="264" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1591957238817" />
     <state width="823" height="466" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1591181279257" />
-    <state width="1750" height="466" key="GridCell.Tab.0.center" timestamp="1591867261708">
+    <state width="1750" height="264" key="GridCell.Tab.0.center" timestamp="1591957238816">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="466" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1591867261708" />
+    <state width="1750" height="264" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1591957238816" />
     <state width="823" height="466" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1591181279256" />
-    <state width="1750" height="466" key="GridCell.Tab.0.left" timestamp="1591867261707">
+    <state width="1750" height="264" key="GridCell.Tab.0.left" timestamp="1591957238816">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="466" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1591867261707" />
+    <state width="1750" height="264" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1591957238816" />
     <state width="823" height="466" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1591181279255" />
-    <state width="1750" height="466" key="GridCell.Tab.0.right" timestamp="1591867261709">
+    <state width="1750" height="264" key="GridCell.Tab.0.right" timestamp="1591957238816">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="466" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1591867261709" />
+    <state width="1750" height="264" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1591957238816" />
     <state width="823" height="466" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1591181279257" />
-    <state x="32" y="300" key="Vcs.Push.Dialog.v2" timestamp="1591176768903">
+    <state x="32" y="300" key="Vcs.Push.Dialog.v2" timestamp="1591869201580">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="32" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1591176768903" />
+    <state x="32" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1591869201580" />
+    <state x="622" y="365" key="refactoring.ChangeSignatureDialog" timestamp="1591943429571">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="622" y="365" key="refactoring.ChangeSignatureDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1591943429571" />
   </component>
 </project>
