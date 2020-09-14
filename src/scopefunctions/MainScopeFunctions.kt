@@ -1,4 +1,0 @@
-package scopefunctions
-
-class MainScopeFunctions {
-}

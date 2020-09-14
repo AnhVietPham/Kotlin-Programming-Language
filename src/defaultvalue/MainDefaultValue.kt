@@ -6,6 +6,7 @@ fun sayHello(first: String? = "Pham", last: String? = "Anh Viet") {
     println("Hello $first $last")
 }
 
+
 fun isNullOrEmpty(str: String?): Boolean {
     return null == str || str.isEmpty()
 }
@@ -60,5 +61,7 @@ fun main() {
 //
 //    // Have one parameter
 //    sayHello(first = "Chelsea")
+    val person = Person(firstName = "Anh Viet Pham")
+    println("FirstName: ${person.firstName}, lastName: ${person.lastName}, age: ${person.age}, address: ${person.address}")
     println(formatCurrencyToKOrPercent(number = 1500500))
 }
