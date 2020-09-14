@@ -1,4 +1,4 @@
-package reactX
+package reactive_programming
 
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.kotlin.subscribeBy
