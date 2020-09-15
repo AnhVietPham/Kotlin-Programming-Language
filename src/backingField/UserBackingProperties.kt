@@ -7,8 +7,9 @@ package backingField
 *   By accessors I mean getter and setter. Property can also be read-only or mutable.
 * ==> Read-only property = private field + getter
 * ==> Mutable property = private field + getter + setter
+* Link: https://www.callicoder.com/kotlin-properties-backing-fields-getters-setters/
 * */
-class User(_id: Int, _name: String, _age: Int, _celsius: Float) {
+class UserBackingProperties(_id: Int, _name: String, _age: Int, _celsius: Float) {
     val id: Int = _id
         get() = field + 10
 
