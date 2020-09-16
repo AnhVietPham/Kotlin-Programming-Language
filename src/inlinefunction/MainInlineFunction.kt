@@ -14,20 +14,6 @@ inline fun inlinedFunc(lambda1: () -> Unit, lambda2: () -> Unit) {
 }
 
 /**
- * A normal function without inlining
- * */
-
-fun notInlinedFilter(list: List<Int>, predicate: (Int) -> Boolean): List<Int> {
-    return list.filter(predicate)
-}
-
-fun notInlinedTest() {
-    val list = listOf(1, 2, 3)
-    val newList = notInlinedFilter(list) { it < 2 }
-    println(newList)
-}
-
-/**
  * A function with inlining
  * */
 
@@ -43,7 +29,6 @@ fun lambdaInCallSiteTest() {
 
 fun main() {
 
-    notInlinedTest()
     lambdaInCallSiteTest()
 //    print("Anh Viet Pham: ")
 //    higherFunc("Super Hero",::print)
