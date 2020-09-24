@@ -1,4 +1,4 @@
-package `sequence-collection`.sequences
+package sequence_collection.sequences
 
 fun main() {
     val fibonacciSeries = sequence {
