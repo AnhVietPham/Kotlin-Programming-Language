@@ -2,8 +2,6 @@ package reactive_programming
 
 import io.reactivex.rxjava3.subjects.PublishSubject
 import io.reactivex.rxjava3.subjects.Subject
-import java.util.function.Consumer
-
 
 fun isEven(number: Int): Boolean{
     return number % 2 == 0
