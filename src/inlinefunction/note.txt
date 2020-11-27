@@ -1,0 +1,8 @@
+- When we pass a lambda to a function, an instance of a function type will be created,
+similar to anonymous inner classes in Java.
+- The extra memory allocations get even worse when a lambda captures a variable:
+The JVM creates a function type instance on every invocation
+- Do we have to choose between abstraction and efficiency?
+- When using inline functions, the compiler inlines the function body.
+That is, it substitutes the body directly into places where the function gets called.
+- When using inline functions, there is no extra object allocation and no extra virtual method calls.
